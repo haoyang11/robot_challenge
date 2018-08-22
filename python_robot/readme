@@ -1,0 +1,6 @@
+1.ssh pi@192.168.1.63 password:ssr2018
+	#launch imu,motor,odom,etc.
+	1)roslaunch turtlebot3_bringup turtlebot3_core.launch
+	#launch camera.          
+	2)roslaunch turtlebot3_bringup turtlebot3_rpicamera.launch
+2.python newmc3.py   
