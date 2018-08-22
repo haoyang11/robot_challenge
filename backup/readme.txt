@@ -1,0 +1,4 @@
+motion_control_pi是放在树莓派上运行的。
+motion_control是在PC上运行的，包含了pointcontrol和velocitycontrol两个文件以及rotate函数。
+一共通过4个Topic控制，point和rotate各两个，velocity没有反馈，延时不敏感，就没有改。
+其中point_goal是控制参数，point_state返回是否完成控制。
